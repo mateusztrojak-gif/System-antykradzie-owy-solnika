@@ -1,2 +1,3 @@
 # System-antykradzie-owy-solnika
-Marcinek w strachu
+Przyjmujemy w tym rozwiązaniu, że Domino posłużył się radą wróżki która zna się na przewodzeniu elektrycznym zup. Zupa z solą to całkiem niezły przewodnik prądu, więc aby sprawdzić stan czystości sumienia Marcina wystarczy przykleić do wnętrza garnka taśmą dwa kable tak, aby były one ledwo zanurzone w wodzie(prąd płynie przez zupę).
+Jeśli Marcinek upije solnik, poziom cieczy spadnie poniżej kabelków a nasz obwód się przerwie. Wtedy do akcji wkracza nasz program, który w momencie przerwania obwodu zapala czerwoną diodę. Gdyby Marcinek próbował być cwany i dolał wody do zupy to dioda dalej pozostanie zapalona.

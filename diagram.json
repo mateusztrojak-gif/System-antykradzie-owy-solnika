@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Domino(Mateusz Trojak)",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0.6, "left": -0.6, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": -61.2, "left": 99.8, "attrs": { "color": "red" } },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": 110, "left": 310.3, "attrs": {} }
+  ],
+  "connections": [
+    [ "led1:C", "uno:GND.1", "gray", [ "v0" ] ],
+    [ "led1:A", "uno:13", "green", [ "v0" ] ],
+    [ "sw1:2", "uno:GND.2", "violet", [ "v0" ] ],
+    [ "sw1:1", "uno:2", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
